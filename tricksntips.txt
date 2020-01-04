@@ -1,0 +1,7 @@
+1) The Arduino IDE for Windows is not reliable for nanos; be sure to downgrade the IDE version to 1.8.7 at the highest.
+When uploading code through the IDE, you may have to change the IDE's Processor settings (in the Tools drop down)
+from AT to ATMega to ATMega Old and back and forth.  This issue is documented on the arduino forums. 
+
+2) Certain flavors of Nano cards are finicky about starting up when powered from stand-alone power supply and
+require you to press the reset button on the card before the code will run.  To avoid this issue, add a
+1-second delay in the start up section of the loop.(see https://forum.arduino.cc/index.php?topic=515895.0)
