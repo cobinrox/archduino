@@ -1,1 +1,3 @@
 test
+On windows, gitbash users dir is at
+C:/Users/name
