@@ -21,6 +21,7 @@ int buttonNext = 2;
 int buttonPause = 3;
 int buttonPrevious = 4;
 boolean isPlaying = false;
+boolean isReady = false;
 void setup()
 {
   // some arduino nano clones require this delay at start
@@ -42,12 +43,19 @@ void setup()
 
   Serial.println();
   Serial.println(F("Initializing DFPlayer ... (May take 3~5 seconds)"));
-  
-  if (!myDFPlayer.begin(mySoftwareSerial)) {  //Use softwareSerial to communicate with mp3.
-    Serial.println(F("Unable to begin:"));
-    Serial.println(F("1.Please recheck the connection!"));
-    Serial.println(F("2.Please insert the SD card!"));
-    while(true);
+  while( !isReady ) {
+    if (!myDFPlayer.begin(mySoftwareSerial)) {  //Use softwareSerial to communicate with mp3.
+      Serial.println(F("Unable to begin:"));
+      Serial.println(F("1.Please recheck the connection!"));
+      Serial.println(F("2.Please insert the SD card!"));
+      Serial.println(F("...delaying a bit..."));
+      delay(1000);
+      Serial.println(F("retrying..."));
+    } else {
+      Serial.println(F("W00t"));
+      isReady = true;
+    }
+
   }
   Serial.println(F("DFPlayer Mini online."));
   
