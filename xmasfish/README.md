@@ -14,6 +14,7 @@ The MP3 files must be named "0001.mp3", "0002.mp3", and so on and be placed at t
 A portable 5v power source was used for power.  All components fit inside of the mounting box shown in the photo.  A few holes were placed strategically on the box to 1) allow a user to turn on/off the power source completely and 2) insert a cable to recharge the power source.  These strategeries prevent the user from having to take everything appart to access the power source.
 
 The image below is not the exact wiring diagram, but shows how the Arduino, MP3 player, and speakers are connected (the diagram was part of a different project that controled the motors of the fish and only had a single button).  This diagram is placed here just for convenience when wiring up the former components.
+
 <img src="./mary.jpg" width="200" height="200">
 
 
