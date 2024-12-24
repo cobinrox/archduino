@@ -1,5 +1,5 @@
 # Xmas Fish
-<img src="./fishportrait.png" width="200" height="200">
+<img src="./fish.jpg" width="200" height="200">
 
 
 This project contains information for using the MP3-TF-16P or similar MP3 player module.  The module, in this project, is connected to an Arduino and speaker and plays back MP3 files.  The files are stored on an SDCard that is inserted into the MP3 module.  Additionally, a set of three push buttons are connected to the Arduino which control the reverse, forward, and play/pause actions for the files.
@@ -17,6 +17,9 @@ The image below is not the exact wiring diagram, but shows how the Arduino, MP3 
 
 <img src="./mary.jpg" width="200" height="200">
 
+The image below shows the guts, not pretty in real life, but eh.
+
+<img src="./fishguts.jpg" width="200" height="200">
 
 
 ## Software
