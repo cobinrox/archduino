@@ -17,6 +17,7 @@ The image below is not the exact wiring diagram, but shows how the Arduino, MP3 
 <img src="./mary.jpg" width="200" height="200">
 
 
+
 ## Software
 The system is controlled by an Arduino "sketch", `xmasfish.ino`, which basically just sets up the button I/O pins, initializes the MP3 module, and then loops, playing the files, and waiting for a button press.
 
