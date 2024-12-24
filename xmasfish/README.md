@@ -24,6 +24,9 @@ The system is controlled by an Arduino "sketch", `xmasfish.ino`, which basically
 
 It also relies on the Arduno library `DFRobotDFPlayerMini`, which can be installed via the Arduino IDE.
 
+<img src="./ide.png" width="200" height="200">
+
+
 ## Installation
 1. Download this project from Github.  It should download to a directory called `xmasfish`.
 2. You'll need an SDCard to store the MP3 files onto.  You can use the files in the `mp3.zip` file, but be sure to unzip them and copy to the SDCard, one at a time.
@@ -38,3 +41,6 @@ It also relies on the Arduno library `DFRobotDFPlayerMini`, which can be install
 
 ## References
 1. https://www.digikey.com/en/products/detail/dfrobot/DFR0299/6588463?gclsrc=aw.ds&&utm_adgroup=&utm_source=google&utm_medium=cpc&utm_campaign=PMax%20Shopping_Product_Low%20ROAS%20Categories&utm_term=&utm_content=&utm_id=go_cmp-20243063506_adg-_ad-__dev-c_ext-_prd-6588463_sig-Cj0KCQiA1Km7BhC9ARIsAFZfEItJ57lxwgxSVFehuAg1FEWTJUNMkW7LTwE8gCQe0X39HnHbs3dpWm8aAsRkEALw_wcB&gad_source=1&gclid=Cj0KCQiA1Km7BhC9ARIsAFZfEItJ57lxwgxSVFehuAg1FEWTJUNMkW7LTwE8gCQe0X39HnHbs3dpWm8aAsRkEALw_wcB&gclsrc=aw.ds
+2. https://www.dfrobot.com/product-1121.html
+3.  Durch Wolfgang Ewald modifizierte Version des FullFunction.ino Beispielsketches der DFRobotDFPlayerMini Bibliothek
+
